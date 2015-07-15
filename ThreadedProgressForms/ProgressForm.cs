@@ -12,8 +12,6 @@ namespace ThreadedProgressForms
 {
     public partial class ProgressForm : Form
     {
-        public delegate void ProgressHandler(int i);
-
         public ProgressHandler Progess;
 
         public ProgressForm()
